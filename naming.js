@@ -22,3 +22,21 @@ var applePrice = parseInt ("20")
 //  console.log(total.toFixed(3));
 //  console.log(total.toFixed(4));
  
+
+
+
+// ============== Methmetical operation
+
+var price = 30;
+price = price+10;
+console.log(price);
+// shortcut : price += 10
+
+var fridgePrice = 35000;
+// fridgePrice = fridgePrice-1000;
+fridgePrice -= 1000
+console.log(fridgePrice);
+
+var orrangePrice = 30;
+orrangePrice = orrangePrice*3;
+console.log(orrangePrice);
