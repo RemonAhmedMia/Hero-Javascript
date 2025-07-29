@@ -10,3 +10,6 @@ var address = "Brahmanbaria Bangladesh";
 
 console.log(typeof name);
 console.log(typeof age);
+
+
+// Alt+Shift+Down-arrow dile copy hoiye nuicher dike line jabe
