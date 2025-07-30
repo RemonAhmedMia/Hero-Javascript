@@ -49,7 +49,7 @@ if ((beton > 22000 && hasCar == true) || weight < 70) {
 
 // ++++++====================
 
-const buy = 5000;
+const buy = 4000;
 // 10% discount
 if (buy >= 5000) {
     const discount = buy *10 / 100;
@@ -58,4 +58,13 @@ if (buy >= 5000) {
     console.log(payAmount);
     //Output : 4500
     //5000 takar 10% mane 5000*10/100
+} else if (buy > 2500) {
+    // 5% discoun
+    const discount = buy *5 / 100;
+    const payAmount = buy - discount;
+    console.log(payAmount);
+}
+else {
+    console.log(buy);
+    //5000 takar beshi na kinle discount nai full payment koro
 }
