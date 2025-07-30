@@ -100,3 +100,9 @@ if (!isPassed) {
     console.log("tumi amr noyon er moni");
     
 }
+
+// ======================== Jodi flase hobar poreo true er ghore dhukaite chai tahole samne ekta logical not diye dibo (!)
+let isLogged = false;
+if (!isLogged) {
+    console.log("user is not loggedin");
+}
