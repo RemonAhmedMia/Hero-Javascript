@@ -106,3 +106,15 @@ let isLogged = false;
 if (!isLogged) {
     console.log("user is not loggedin");
 }
+
+
+// Logical NOT (!) হচ্ছে জাভাস্ক্রিপ্ট বা অন্য প্রোগ্রামিং ভাষার একটি লজিক্যাল অপারেটর, যা একটি Boolean মানকে উল্টে দেয়। 
+// !true → false
+// !false → true
+
+let isRaining = false;
+
+if (!isRaining) {
+  console.log("You can go outside.");
+}
+// ঠিক তেমনি !isRaining → মানে হচ্ছে "বৃষ্টি হচ্ছে না"
