@@ -87,3 +87,16 @@ let myAge = 20;
 let result = myAge >= 18 ? "Adult" : "Minor";
 
 console.log(result); // "Adult"
+
+
+// Logical Not (!) : negative jinish k check kore
+
+const isPassed = false
+
+// if(isPassed=== true) eita jei kootha if (!isPassed) ekoi kotha
+if (!isPassed) {
+    console.log("Tore Biye diye dibo");
+}else{
+    console.log("tumi amr noyon er moni");
+    
+}
