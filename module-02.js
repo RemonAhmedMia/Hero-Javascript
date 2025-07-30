@@ -5,7 +5,7 @@
     console.log("Get Lost");
  }
 
-//  And (&&) If/Else
+// =============== And (&&) If/Else
 
 // ekhane && diye korle 2 ta condition er jekono ekta jodi mittha hoi tahole eta properly sottho na orthat eta mitthe hobe er jonno 2 ta condition e sottho hoite hobe
 
@@ -19,7 +19,7 @@ if (salery > 20000 && height > 67) {
 }
 
 
-// Otoba( || )Condition :
+//========== Otoba( || )Condition :
 
 // ekhane || diye korle 2 ta condition er jekono ekta jodi fullfil korlei hoi tahole eta properly sottho  hobe
 
@@ -33,7 +33,7 @@ if (saleryOne > 30000 || heightOne > 67) {
 }
 
 
-// Complex Condition
+// =========== Complex Condition
 
 let beton = 26000;
 let hasCar = true;
@@ -44,4 +44,18 @@ if ((beton > 22000 && hasCar == true) || weight < 70) {
 } else {
     console.log("Ami Barishal biye Korbo");
     
+}
+
+
+// ++++++====================
+
+const buy = 5000;
+// 10% discount
+if (buy >= 5000) {
+    const discount = buy *10 / 100;
+    // console.log(discount);
+    const payAmount = buy - discount;
+    console.log(payAmount);
+    //Output : 4500
+    //5000 takar 10% mane 5000*10/100
 }
