@@ -68,3 +68,22 @@ else {
     console.log(buy);
     //5000 takar beshi na kinle discount nai full payment koro
 }
+
+
+
+// ================ Ternary Operation
+
+//Ternary (টারনারি) হচ্ছে একটি সংক্ষিপ্ত if-else শর্তের রূপ,
+//condition ? expressionIfTrue : expressionIfFalse;
+
+// condition — শর্ত (যদি সত্য হয় বা মিথ্যা হয়)
+
+// ? — যদি শর্ত সত্য হয়
+
+// : — যদি শর্ত মিথ্যা হয়
+
+let myAge = 20;
+
+let result = myAge >= 18 ? "Adult" : "Minor";
+
+console.log(result); // "Adult"
